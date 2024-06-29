@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zenchat/static/css/main.eb139b2c.css",
-    "main.js": "/zenchat/static/js/main.0dc4301f.js",
+    "main.js": "/zenchat/static/js/main.e167aa64.js",
     "static/media/bg.gif": "/zenchat/static/media/bg.228eee6c836a6b74569b.gif",
     "static/media/login-bg.png": "/zenchat/static/media/login-bg.c8ae5425b0f7d78ed623.png",
     "static/media/HECTURESRegular.eot": "/zenchat/static/media/HECTURESRegular.762a8edfb3e6a51a7e16.eot",
@@ -10,10 +10,10 @@
     "static/media/HECTURESRegular.woff2": "/zenchat/static/media/HECTURESRegular.d12ff9814f7d2dcbf91f.woff2",
     "index.html": "/zenchat/index.html",
     "main.eb139b2c.css.map": "/zenchat/static/css/main.eb139b2c.css.map",
-    "main.0dc4301f.js.map": "/zenchat/static/js/main.0dc4301f.js.map"
+    "main.e167aa64.js.map": "/zenchat/static/js/main.e167aa64.js.map"
   },
   "entrypoints": [
     "static/css/main.eb139b2c.css",
-    "static/js/main.0dc4301f.js"
+    "static/js/main.e167aa64.js"
   ]
 }
