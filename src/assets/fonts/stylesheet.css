@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'HECTURES';
+    src: url('HECTURESRegular.eot');
+    src: url('HECTURESRegular.eot?#iefix') format('embedded-opentype'),
+        url('HECTURESRegular.woff2') format('woff2'),
+        url('HECTURESRegular.woff') format('woff'),
+        url('HECTURESRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,28 @@
+.list {
+  overflow-y: auto; /* Enable vertical scrolling */
+  flex: 1; /* Flex value for the element, takes half of the available space */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  position: relative; /* Position relative for the element */
+  display: none;
+  max-width: 350px; /* Maximum width for the element */
+}
+
+@media (min-width: 1100px) {
+  .list {
+    display: block;
+  }
+}
+
+@media (max-width: 1100px) {
+  .list {
+    display: block;
+  }
+}
+
+@media (max-width: 786px) {
+  .list {
+    max-width: 90%;
+    display: block;
+    top: 90px;
+  }
+}

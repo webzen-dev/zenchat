@@ -1,0 +1,61 @@
+.chatlist {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 20px;
+  padding: 15px;
+  align-items: center;
+}
+.chatlist .item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 15px;
+  background: linear-gradient(
+    156deg,
+    rgba(41, 0, 65, 0.986) 0%,
+    rgb(19, 0, 34) 78%
+  );
+  max-width: 370px;
+  gap: 20px;
+  width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+.chatlist .item:hover{
+  opacity: 0.6;
+  box-shadow: 0px 0px 30px rgb(137, 99, 226);
+
+}
+.chatlist .item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chatlist .item .message {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+  align-items: flex-start;
+  text-transform: capitalize;
+  flex: 1;
+}
+.chatlist .item .message p:first-child {
+  font-size: 1rem;
+  color: #eee;
+  
+}
+.chatlist .item .message p:last-child {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+@media screen and (max-width:680px) {
+  .chatlist .item {
+    max-width: 90%;
+    
+  }
+}

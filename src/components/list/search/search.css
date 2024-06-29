@@ -1,0 +1,25 @@
+.search {
+  width: 100%;
+  padding: 20px;
+}
+.search .search-box {
+  background: var(--background-color-dark);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.search .search-box input {
+  flex: 1;
+  padding: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  border-left: 1px solid #eeeeee6b;
+}
+.search .search-box img {
+  width: 30px;
+  height: 30px;
+}

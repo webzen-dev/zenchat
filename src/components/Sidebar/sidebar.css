@@ -1,0 +1,101 @@
+.sidebar {
+  background: var(--background-color-dark);
+  color: aliceblue;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-around;
+  border-radius: 10px 0px 0px 10px;
+  width: 90px;
+}
+.chat-item-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chat-item-box .chat-item a,
+.logout {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  padding-top: 20px;
+}
+.chat-item-box .chat-item a.active {
+  border-bottom: 2px solid rebeccapurple;
+}
+.chat-item-box .chat-item a.active span {
+  color: rebeccapurple;
+}
+.chat-item-box .chat-item a.active img{
+  display: none;
+}
+.chat-item-box .chat-item a.active .active-image{
+  display: block;
+}
+.chat-item-box .chat-item span {
+  /* display: none; */
+  font-size: 1rem;
+  color: silver;
+}
+.chat-item-box .chat-item img {
+  width: 30px;
+  height: 30px;
+}
+.active-image{
+  display: none;
+}
+.sidebar .profile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0px;
+}
+.sidebar .profile .full-name {
+  position: absolute;
+  background: linear-gradient(
+    156deg,
+    rgb(255, 136, 0) 0%,
+    rgb(124, 34, 197) 78%
+  );
+  padding: 10px;
+  z-index: 111;
+  min-width: 120px;
+  border-radius: 0px 20px 20px 20px;
+  left: 90%;
+  top: 50%;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 10px rgb(77, 77, 77);
+  transition: all 0.5s ease-in;
+  display: none;
+  opacity: 0;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 120px #eee;
+}
+.sidebar .profile:hover .full-name {
+  display: block;
+  opacity: 1;
+}
+.add-user{
+  text-align: center;
+  font-size: 1.2rem;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 35fa9c2fed6f9332a7261942ebc45eb0ddf653a6

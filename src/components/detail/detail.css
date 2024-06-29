@@ -1,0 +1,122 @@
+.detail {
+  flex: 0.5;
+  display: none;
+  flex-direction: column;
+  img {
+    width: 40px;
+  }
+  align-items: center;
+  padding: 20px 0px;
+  gap: 30px;
+}
+.detail h1 {
+  color: #eee;
+  text-transform: capitalize;
+  letter-spacing: 1.4px;
+}
+.detail .user {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+}
+.detail .user h3 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+}
+.detail .user img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 0px 30px rgb(140, 0, 255);
+  border: 5px solid #eee;
+}
+.detail .user p {
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+.photos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  max-height: 260px;
+overflow: auto;
+}
+.photos .photoItem {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.photos .photoItem .imageDetail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #eee;
+}
+.photos .photoItem .imageDetail img {
+  width: 80px;
+  border-radius: 5px;
+}
+.photos .photoItem .donwloadIcon {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #eee;
+
+  border-radius: 50%;
+  padding: 1px;
+}
+.blockBtn {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(
+    156deg,
+    rgb(255, 163, 163) 0%,
+    rgb(161, 21, 21) 78%
+  );
+  border: rgb(83, 0, 0) 4px outset;
+  margin-top: 40px;
+  transition: all 300ms;
+}
+.blockBtn:hover{
+    background: linear-gradient(
+        156deg,
+        rgba(255, 163, 163,0.5) 0%,
+        rgba(161, 21, 21,0.5) 78%
+      );
+      cursor: pointer;
+}
+.detail .title{
+    width: 80%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid ;
+    text-align: center;
+    color: #eee;
+}
+
+@media (min-width: 1100px) {
+
+  .detail {
+    display: flex;
+  }
+}
+
+@media (max-width: 1100px) {
+  .detail {
+    display: none;
+  }
+}
+
+@media (max-width: 786px) {
+
+
+  .detail {
+    display: none;
+  }
+}
